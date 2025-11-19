@@ -1,72 +1,77 @@
-# 🅰️ Angular Learning Projects
+# 🅰️ Proyectos de Aprendizaje Angular
 
-13 progressive projects covering Angular basics to advanced concepts.
+13 proyectos progresivos cubriendo desde básicos de Angular hasta conceptos avanzados.
 
-## 📚 Projects List
+## 📚 Lista de Proyectos
 
-### Beginner
-- **[angular-basics](https://github.com/Cortadai/angular-basics)**
-  Counter, Heroes, Dragon Ball - Basic components and services
+### Principiante
 
-- **[angular-directivas](https://github.com/Cortadai/angular-directivas)**
-  Custom directives - error-msg and customif patterns
+- **[angular-basics](https://github.com/Cortadai/angular-basics)**  
+  Contador, Heroes, Dragon Ball - Componentes básicos y servicios
 
-### Intermediate  
-- **[angular-formularios](https://github.com/Cortadai/angular-formularios)**
-  Template-driven and Reactive Forms - Validations, cross-field validation
-  - *Requires: [formularios-json-db](https://github.com/Cortadai/formularios-json-db)* (JSON data)
+- **[angular-directivas](https://github.com/Cortadai/angular-directivas)**  
+  Directivas personalizadas - Patrones error-msg y customif
 
-- **[angular-auth](https://github.com/Cortadai/angular-auth)**
-  JWT authentication - Guards, token renewal, protected routes
-  - *Backend: [node-auth-backend](https://github.com/Cortadai/node-auth-backend)* (Node.js API)
+### Intermedio
 
-- **[angular-pipes](https://github.com/Cortadai/angular-pipes)**
-  Built-in and custom pipes - Data transformation filters with PrimeNG
+- **[angular-formularios](https://github.com/Cortadai/angular-formularios)**  
+  Formularios Template-driven y Reactivos - Validaciones, validación entre campos
+  - *Requiere: [formularios-json-db](https://github.com/Cortadai/formularios-json-db)* (Datos JSON)
 
-### Advanced
-- **[angular-selectores](https://github.com/Cortadai/angular-selectores)**
-  Cascading selectors - Dependent dropdowns with RxJS
+- **[angular-auth](https://github.com/Cortadai/angular-auth)**  
+  Autenticación JWT - Guards, renovación de tokens, rutas protegidas
+  - *Backend: [node-auth-backend](https://github.com/Cortadai/node-auth-backend)* (API Node.js)
 
-- **[angular-graficas](https://github.com/Cortadai/angular-graficas)**
-  Data visualization - Chart.js and ng2-charts
+- **[angular-pipes](https://github.com/Cortadai/angular-pipes)**  
+  Pipes integrados y personalizados - Filtros de transformación de datos con PrimeNG
 
-- **[angular-mapas](https://github.com/Cortadai/angular-mapas)**
-  Mapbox GL integration - Interactive maps, markers, drag & drop
+### Avanzado
 
-- **[angular-paises](https://github.com/Cortadai/angular-paises)**
-  REST API consumption - Countries API with debounce and switchMap
+- **[angular-selectores](https://github.com/Cortadai/angular-selectores)**  
+  Selectores en cascada - Dropdowns dependientes con RxJS
 
-- **[angular-gifs](https://github.com/Cortadai/angular-gifs)**
-  Giphy API integration - Search history, localStorage persistence
+- **[angular-graficas](https://github.com/Cortadai/angular-graficas)**  
+  Visualización de datos - Chart.js y ng2-charts
 
-- **[angular-heroes](https://github.com/Cortadai/angular-heroes)**
-  CRUD application - Material Design, authentication, guards
-  - *Requires: [heroes-json-db](https://github.com/Cortadai/heroes-json-db)* (JSON data)
+- **[angular-mapas](https://github.com/Cortadai/angular-mapas)**  
+  Integración Mapbox GL - Mapas interactivos, marcadores, drag & drop
 
-- **[angular-hooks](https://github.com/Cortadai/angular-hooks)**
-  Lifecycle hooks - All hooks with console logging and interaction
+- **[angular-paises](https://github.com/Cortadai/angular-paises)**  
+  Consumo de API REST - Countries API con debounce y switchMap
 
-### Utilities & Support
-- **[vscode-curse](https://github.com/Cortadai/vscode-curse)**
-  VSCode tutorial - Shortcuts, multi-cursor, extensions guide
+- **[angular-gifs](https://github.com/Cortadai/angular-gifs)**  
+  Integración API Giphy - Historial de búsqueda, persistencia localStorage
 
-- **[ts-intro](https://github.com/Cortadai/ts-intro)**
-  TypeScript fundamentals - Types, interfaces, generics, decorators
+- **[angular-heroes](https://github.com/Cortadai/angular-heroes)**  
+  Aplicación CRUD - Material Design, autenticación, guards
+  - *Requiere: [heroes-json-db](https://github.com/Cortadai/heroes-json-db)* (Datos JSON)
 
-- **[node-auth-backend](https://github.com/Cortadai/node-auth-backend)**
-  Node.js/Express backend for authentication testing
-  - Backend service for `angular-auth` project
+- **[angular-hooks](https://github.com/Cortadai/angular-hooks)**  
+  Hooks de ciclo de vida - Todos los hooks con logging en consola e interacción
 
-### Data Sources (Supporting Projects)
-- **[formularios-json-db](https://github.com/Cortadai/formularios-json-db)**
-  JSON database for form testing
+### Utilidades y Soporte
 
-- **[heroes-json-db](https://github.com/Cortadai/heroes-json-db)**
-  JSON database with DC & Marvel heroes data
+- **[vscode-curse](https://github.com/Cortadai/vscode-curse)**  
+  Tutorial VSCode - Atajos, multi-cursor, guía de extensiones
+
+- **[ts-intro](https://github.com/Cortadai/ts-intro)**  
+  Fundamentos TypeScript - Tipos, interfaces, genéricos, decoradores
+
+- **[node-auth-backend](https://github.com/Cortadai/node-auth-backend)**  
+  Backend Node.js/Express para testing de autenticación
+  - Servicio backend para proyecto `angular-auth`
+
+### Fuentes de Datos (Proyectos de Soporte)
+
+- **[formularios-json-db](https://github.com/Cortadai/formularios-json-db)**  
+  Base de datos JSON para testing de formularios
+
+- **[heroes-json-db](https://github.com/Cortadai/heroes-json-db)**  
+  Base de datos JSON con datos de héroes DC y Marvel
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠️ Tecnologías Utilizadas
 
 **Frontend:**
 - Angular 14/16
@@ -76,177 +81,177 @@
 - Angular Material
 - PrimeNG
 
-**Data Visualization:**
+**Visualización de Datos:**
 - Chart.js / ng2-charts
 - Mapbox GL
 
-**Utilities:**
+**Utilidades:**
 - Animate.css
 - JSON Server
 
-**Backend (Supporting):**
+**Backend (Soporte):**
 - Node.js / Express
-- JWT Authentication
+- Autenticación JWT
 
 ---
 
-## 🎯 Learning Path
+## 🎯 Ruta de Aprendizaje
 
-### Foundation (Start here)
-1. `ts-intro` - TypeScript basics
-2. `angular-basics` - Angular fundamentals
-3. `angular-directivas` - Custom directives
+### Fundamentos (Empezar aquí)
+1. `ts-intro` - Básicos de TypeScript
+2. `angular-basics` - Fundamentos de Angular
+3. `angular-directivas` - Directivas personalizadas
 
-### Core Concepts
-4. `angular-formularios` - Forms mastery (with json-db)
-5. `angular-pipes` - Data transformation
-6. `angular-hooks` - Component lifecycle
+### Conceptos Core
+4. `angular-formularios` - Maestría en formularios (con json-db)
+5. `angular-pipes` - Transformación de datos
+6. `angular-hooks` - Ciclo de vida de componentes
 
-### Advanced Patterns
-7. `angular-auth` - Authentication & security (with node-auth-backend)
-8. `angular-selectores` - Reactive programming with RxJS
-9. `angular-paises` - API consumption & optimization
-10. `angular-heroes` - Complete CRUD (with json-db)
+### Patrones Avanzados
+7. `angular-auth` - Autenticación y seguridad (con node-auth-backend)
+8. `angular-selectores` - Programación reactiva con RxJS
+9. `angular-paises` - Consumo de API y optimización
+10. `angular-heroes` - CRUD completo (con json-db)
 
-### Real-World Features
-11. `angular-graficas` - Data visualization
-12. `angular-mapas` - Map integration
-13. `angular-gifs` - External API integration
+### Características del Mundo Real
+11. `angular-graficas` - Visualización de datos
+12. `angular-mapas` - Integración de mapas
+13. `angular-gifs` - Integración de API externa
 
-### Professional Tools
-14. `vscode-curse` - Developer productivity
+### Herramientas Profesionales
+14. `vscode-curse` - Productividad del desarrollador
 
 ---
 
-## 📦 Dependencies & Setup
+## 📦 Dependencias y Configuración
 
-### Projects requiring JSON databases:
-- `angular-formularios` → Use [formularios-json-db](https://github.com/Cortadai/formularios-json-db)
-- `angular-heroes` → Use [heroes-json-db](https://github.com/Cortadai/heroes-json-db)
+### Proyectos que requieren bases de datos JSON:
+- `angular-formularios` → Usar [formularios-json-db](https://github.com/Cortadai/formularios-json-db)
+- `angular-heroes` → Usar [heroes-json-db](https://github.com/Cortadai/heroes-json-db)
 
-**Setup JSON Server:**
+**Configurar JSON Server:**
 ```bash
 npm install -g json-server
 json-server --watch db.json --port 3000
 ```
 
-### Projects requiring backend API:
-- `angular-auth` → Use [node-auth-backend](https://github.com/Cortadai/node-auth-backend)
+### Proyectos que requieren API backend:
+- `angular-auth` → Usar [node-auth-backend](https://github.com/Cortadai/node-auth-backend)
 
-**Setup Node backend:**
+**Configurar backend Node:**
 ```bash
 cd node-auth-backend
 npm install
-npm start  # Runs on port 3000 (or configured port)
+npm start  # Se ejecuta en puerto 3000 (o puerto configurado)
 ```
 
-### External APIs:
-- `angular-paises` - Uses [REST Countries API](https://restcountries.com/v2/)
-- `angular-gifs` - Uses [Giphy API](https://giphy.com/) (requires API key)
+### APIs Externas:
+- `angular-paises` - Usa [REST Countries API](https://restcountries.com/v2/)
+- `angular-gifs` - Usa [Giphy API](https://giphy.com/) (requiere API key)
 
 ---
 
-## 🚀 Quick Start
+## 🚀 Inicio Rápido
 
-### Clone and explore any project:
+### Clonar y explorar cualquier proyecto:
 ```bash
 git clone https://github.com/Cortadai/angular-basics.git
 cd angular-basics
 npm install
-ng serve  # or npm start
+ng serve  # o npm start
 ```
 
-### Recommended order:
-1. Start with `ts-intro` for TypeScript review
-2. Follow the Learning Path section above
-3. Try intermediate projects first
-4. Advance to complex patterns
+### Orden recomendado:
+1. Empezar con `ts-intro` para revisar TypeScript
+2. Seguir la sección Ruta de Aprendizaje arriba
+3. Probar primero proyectos intermedios
+4. Avanzar a patrones complejos
 
 ---
 
-## 📊 Project Stats
+## 📊 Estadísticas del Proyecto
 
-| Category | Count | Topics |
-|----------|-------|--------|
-| **Angular Core** | 13 | #angular #learning #education #tutorial |
-| **Supporting** | 2 | #nodejs #learning #education |
-| **Utilities** | 2 | #typescript #vscode #learning |
-| **Data Sources** | 2 | #json-db #learning |
+| Categoría | Cantidad | Topics |
+|-----------|----------|--------|
+| **Angular Core** | 13 | #angular #aprendizaje #educacion #tutorial |
+| **Soporte** | 2 | #nodejs #aprendizaje #educacion |
+| **Utilidades** | 2 | #typescript #vscode #aprendizaje |
+| **Fuentes de Datos** | 2 | #json-db #aprendizaje |
 | **TOTAL** | 19 | - |
 
 ---
 
-## 🔗 Related Collections
+## 🔗 Colecciones Relacionadas
 
-Explore other learning collections:
-- [Spring Boot Learning Projects](https://github.com/Cortadai)
-- [Web Services & SOAP](https://github.com/Cortadai)
-- [Microservices Architecture](https://github.com/Cortadai)
+Explora otras colecciones de aprendizaje:
+- [Proyectos de Aprendizaje Spring Boot](https://github.com/Cortadai/spring-boot-basics)
+- [Web Services & SOAP]([https://github.com/Cortadai](https://github.com/Cortadai/web-services-soap))
+- [Arquitectura de Microservicios](https://github.com/Cortadai/microservices-architecture)
 
 ---
 
-## 💡 Key Concepts by Project
+## 💡 Conceptos Clave por Proyecto
 
-| Concept | Project |
-|---------|---------|
-| Components | angular-basics |
-| Directives | angular-directivas |
-| Dependency Injection | All projects |
-| Forms (Template) | angular-formularios |
-| Forms (Reactive) | angular-formularios |
-| Validation | angular-formularios |
+| Concepto | Proyecto |
+|----------|----------|
+| Componentes | angular-basics |
+| Directivas | angular-directivas |
+| Inyección de Dependencias | Todos los proyectos |
+| Formularios (Template) | angular-formularios |
+| Formularios (Reactivos) | angular-formularios |
+| Validación | angular-formularios |
 | Pipes | angular-pipes |
-| Services | All projects |
+| Servicios | Todos los proyectos |
 | HTTP Client | angular-paises, angular-gifs, angular-heroes |
 | RxJS | angular-selectores, angular-paises |
-| Routing & Guards | angular-auth, angular-heroes |
+| Routing y Guards | angular-auth, angular-heroes |
 | Material Design | angular-heroes, angular-graficas |
-| Authentication | angular-auth |
+| Autenticación | angular-auth |
 | localStorage | angular-gifs, angular-mapas |
-| Third-party APIs | angular-paises, angular-gifs |
-| Maps Integration | angular-mapas |
-| Charts & Visualization | angular-graficas |
-| Lifecycle Hooks | angular-hooks |
+| APIs de Terceros | angular-paises, angular-gifs |
+| Integración de Mapas | angular-mapas |
+| Charts y Visualización | angular-graficas |
+| Hooks de Ciclo de Vida | angular-hooks |
 
 ---
 
-## 🎓 Learning Outcomes
+## 🎓 Resultados de Aprendizaje
 
-After completing this collection, you'll master:
-- ✅ Angular fundamentals and advanced patterns
-- ✅ TypeScript for web development
-- ✅ Reactive programming with RxJS
-- ✅ Form handling (template-driven & reactive)
-- ✅ HTTP communication with REST APIs
-- ✅ Authentication and security
-- ✅ Component lifecycle management
-- ✅ Custom directives and pipes
-- ✅ Data visualization
-- ✅ Map integration
-- ✅ Third-party API consumption
-- ✅ Storage and persistence
-- ✅ Material Design implementation
-
----
-
-## 📝 Topics Applied
-
-Each project is tagged with:
-- `#angular` - Angular framework
-- `#learning` - Learning project
-- `#education` - Educational content
-- `#tutorial` - Tutorial style
-
-Supporting projects tagged with:
-- `#nodejs` - Node.js runtime
-- `#typescript` - TypeScript language
-- `#json-db` - JSON database
-- `#vscode` - VS Code editor
+Después de completar esta colección, dominarás:
+- ✅ Fundamentos de Angular y patrones avanzados
+- ✅ TypeScript para desarrollo web
+- ✅ Programación reactiva con RxJS
+- ✅ Manejo de formularios (template-driven y reactivos)
+- ✅ Comunicación HTTP con APIs REST
+- ✅ Autenticación y seguridad
+- ✅ Gestión del ciclo de vida de componentes
+- ✅ Directivas y pipes personalizados
+- ✅ Visualización de datos
+- ✅ Integración de mapas
+- ✅ Consumo de APIs de terceros
+- ✅ Almacenamiento y persistencia
+- ✅ Implementación de Material Design
 
 ---
 
-## 📬 Questions or Improvements?
+## 📝 Topics Aplicados
 
-These projects were created as part of a continuous learning journey in Angular development.
+Cada proyecto está etiquetado con:
+- `#angular` - Framework Angular
+- `#aprendizaje` - Proyecto de aprendizaje
+- `#educacion` - Contenido educativo
+- `#tutorial` - Estilo tutorial
 
-*Last updated: November 2025*
+Proyectos de soporte etiquetados con:
+- `#nodejs` - Runtime Node.js
+- `#typescript` - Lenguaje TypeScript
+- `#json-db` - Base de datos JSON
+- `#vscode` - Editor VS Code
+
+---
+
+## 📬 ¿Preguntas o Mejoras?
+
+Estos proyectos fueron creados como parte de un viaje continuo de aprendizaje en desarrollo Angular.
+
+*Última actualización: Noviembre 2025*
